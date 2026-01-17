@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa Dibujable</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="toolbar">
+  <button id="penTool">✏️</button>
+  <button id="markerTool">🖍️</button>
+  <button id="eraserTool">🧽</button>
+  <button id="bucketTool">🪣</button>
+
+  <input type="color" id="colorPicker" value="#ff0000">
+  <input type="range" id="sizePicker" min="1" max="40" value="6">
+</div>
+
+<div class="canvas-container">
+  <canvas id="canvas"></canvas>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
